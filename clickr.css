@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    font-size: 50px;
+    position: relative;
+    margin: 2rem;
+}
+
+#counter, #display {
+    font-size: 26px;
+    height: 32px;
+}
